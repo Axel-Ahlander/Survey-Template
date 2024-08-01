@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Ultimate Premier League Supporter Survey</h1>
+        <hr>
+    </header>
+    <main>
+        <img src="https://i.pinimg.com/originals/7b/70/b3/7b70b3f3b24cebef30f882220cff442f.png" alt="image of the pl logo">
+        <form action="www.justatest.com" method="get" id = "form">
+            <div class = "form-group">
+                <fieldset>
+                    <label for="text">Enter your first name: </label>
+                    <input type="text" required name = "firstname" id = "text-field">
+                    <label for="text">Enter your last name: </label>
+                    <input type="text" required name = "lastname" id = "text-field">
+                    <label for="text">Enter your year of birth: </label>
+                    <input type="date" required name = "age" id = "text-field">
+                    <label for="text">Enter your email: </label>
+                    <input type="email" required name = "email" id = "text-field">
+                    <label for="text">Create a new password: </label>
+                    <input type="password" required minlength="8" name = "password" id = "text-field">
+                </fieldset>
+            </div>
+            <hr id = "main-hr">
+            <div class = form-group>
+                <fieldset class = "option-group">
+                    <legend>
+                        What level of support do you give to your club?
+                    </legend>
+                        <div class = option>
+                            <input type="radio" name="group" id="option1" checked><label for="option1">Very little</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option2"> <label for="option2">Little</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option3"> <label for="option3">Neutral</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option4"> <label for="option4">A lot</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option5"> <label for="option5">Die hard supporter</label>
+                        </div>
+                </fieldset>
+            </div>
+            <div class = form-group>
+                <fieldset class = "option-group">
+                    <legend>
+                        How many games do you think you will attend this season?
+                    </legend>
+                        <div class = option>
+                            <input type="radio" name="group" id="option1" checked><label for="option1">0</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option2"> <label for="option2">1</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option3"> <label for="option3">5</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option4"> <label for="option4">10</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option5"> <label for="option5">10+</label>
+                        </div>
+                </fieldset>
+            </div>
+            <hr id = main-hr>
+            <div class = form-group>
+                <fieldset>
+                    <legend>What team do you support?</legend>
+                    <select name="team" id="teams-to-support">
+                        <option value="Arsenal">Arsenal</option>
+                        <option value="Aston Villa">Aston Villa</option>
+                        <option value="Bournemoth">Bournemoth</option>
+                        <option value="Brentford">Brentford</option>
+                        <option value="Brighton">Brighton</option>
+                        <option value="Chelsea">Chelsea</option>
+                        <option value="Crystal Palace">Crystal Palace</option>
+                        <option value="Everton">Everton</option>
+                        <option value="Fulham">Fulham</option>
+                        <option value="Ipswich Town">Ipswich Town</option>
+                        <option value="Leicester City">Leicester City</option>
+                        <option value="Liverpool">Liverpool</option>
+                        <option value="Manchester City">Manchester City</option>
+                        <option value="Manchester United">Manchester United</option>
+                        <option value="Newcastle United">Newcastle United</option>
+                        <option value="Nottingham Forest">Nottingham Forest</option>
+                        <option value="Southampton">Southampton</option>
+                        <option value="Tottenham Hotspur">Tottenham Hotspur</option>
+                        <option value="West Ham United">West Ham United</option>
+                        <option value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div class = form-group>
+                <fieldset>
+                    <legend>What team do you think will win the PL this season?</legend>
+                    <select name="team" id="teams-to-support">
+                        <option value="Arsenal">Arsenal</option>
+                        <option value="Aston Villa">Aston Villa</option>
+                        <option value="Bournemoth">Bournemoth</option>
+                        <option value="Brentford">Brentford</option>
+                        <option value="Brighton">Brighton</option>
+                        <option value="Chelsea">Chelsea</option>
+                        <option value="Crystal Palace">Crystal Palace</option>
+                        <option value="Everton">Everton</option>
+                        <option value="Fulham">Fulham</option>
+                        <option value="Ipswich Town">Ipswich Town</option>
+                        <option value="Leicester City">Leicester City</option>
+                        <option value="Liverpool">Liverpool</option>
+                        <option value="Manchester City">Manchester City</option>
+                        <option value="Manchester United">Manchester United</option>
+                        <option value="Newcastle United">Newcastle United</option>
+                        <option value="Nottingham Forest">Nottingham Forest</option>
+                        <option value="Southampton">Southampton</option>
+                        <option value="Tottenham Hotspur">Tottenham Hotspur</option>
+                        <option value="West Ham United">West Ham United</option>
+                        <option value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
+                    </select>
+                </fieldset>
+            </div>
+            <hr id = "main-hr">
+            <div class = form-group>
+                <fieldset class = "option-group">
+                    <legend>
+                        On a scale from 1-10 how confident are you in your predictions?
+                    </legend>
+                        <div class = option>
+                            <input type="radio" name="group" id="option1" checked><label for="option1">0</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option2"> <label for="option2">1</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option3"> <label for="option3">2</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option4"> <label for="option4">3</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option5"> <label for="option5">4</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option1" checked><label for="option1">5</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option2"> <label for="option2">6</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option3"> <label for="option3">7</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option4"> <label for="option4">8</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option5"> <label for="option5">9</label>
+                        </div>
+                        <div class = option>
+                            <input type="radio" name="group" id="option5"> <label for="option5">10</label>
+                        </div>
+                </fieldset>
+            </div>
+
+            <hr id = "main-hr">
+            <div class = "form-group">
+                <fieldset>
+                    <input type="submit" value="Submit
+                    ">
+                </fieldset>
+            </div>
+
+            <div class = "form-group">
+                <fieldset>
+                    <div class = "option">
+                        <input type="checkbox" id ="agreement" required><label for="agreement">I consent to realising the data from this survey for educational purposes.</label>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>NB! This is just an example survey, no data will actually be used, thanks. Axel</p>
+    </footer>
+</body>
+</html>
